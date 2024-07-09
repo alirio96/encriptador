@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="encriptador.css">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">   
+        <img class="header_logo" src="./Vector.png" alt="logotipoAluraLatam">
+        </div> 
+    </header>
+
+    <main>
+        <div class="main">
+            <div class="left">          
+                <textarea id="ingreseTexto" class="ingrese_texto" placeholder="ingrese texto aqui"></textarea>
+                <div class="left__footer">
+                    <img src="bi_exclamation-circle-fill.png" alt="">
+                    <span class="left_info">solo letras y minusculas sin acento</span>
+                    <div class="left_botones">
+                        <button id="botonEncriptar" class="boton_encriptar">encriptar</button>
+                        <button id="botonDesencriptar" class="boton_desencriptar">desencriptar</button>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="right">
+                <img class="muñeco" src="Muñeco.png" alt="muñeco principal"> 
+                <p id="mensajeFinal" class="mensaje_final">ningun mensaje fue encontrado</p>
+                <p class="right_info">ingresa el texto que desea incriptar o desencriptar</p>
+                <button id="botonCopiar" class="boton_copiar">copiar</button> 
+            </div>
+        </div> 
+    </main>
+    <script src="encriptador.js"></script>
+</body>   
+</html>
